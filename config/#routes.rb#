@@ -1,4 +1,4 @@
-DemoApp::Application.routes.draw do
+cfDemoApp::Application.routes.draw do
   resources :microposts
 
   resources :users
@@ -24,7 +24,7 @@ DemoApp::Application.routes.draw do
   #       post 'toggle'
   #     end
   #
-  #     collection do
+po  #     collection do
   #       get 'sold'
   #     end
   #   end
